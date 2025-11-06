@@ -1,0 +1,8 @@
+************* Module inventory_system
+inventory_system.py:47:0: C0301: Line too long (112/100) (line-too-long)
+inventory_system.py:70:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+inventory_system.py:74:8: W1203: Use lazy % formatting in logging functions (logging-fstring-interpolation)
+
+------------------------------------------------------------------
+Your code has been rated at 9.70/10 (previous run: 9.70/10, +0.00)
+
