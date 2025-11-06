@@ -1,0 +1,33 @@
+{
+  "name": "simple-subscription-billing-simulator",
+  "version": "1.0.0",
+  "description": "A backend system that manages users, subscription plans, trial periods, automated renewals, and generates PDF invoices.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "pdfkit": "^0.12.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "ts-node": "^9.0.0",
+    "jest": "^26.6.0",
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.14.0",
+    "@types/express": "^4.17.8"
+  },
+  "keywords": [
+    "subscription",
+    "billing",
+    "invoices",
+    "payments"
+  ],
+  "author": "Uncharted Team",
+  "license": "MIT"
+}
